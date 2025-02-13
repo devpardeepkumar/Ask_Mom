@@ -1,0 +1,29 @@
+
+{
+  "name": "react-native-ask-mom",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-native start",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios"
+  },
+  "dependencies": {
+    "react": "18.1.0",
+    "react-native": "0.68.0",
+    "firebase": "^9.1.2",
+    "react-navigation": "^4.4.4",
+    "react-navigation-stack": "^2.10.4",
+    "react-redux": "^7.2.5",
+    "redux": "^4.1.2",
+    "redux-thunk": "^2.4.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.5",
+    "@babel/preset-react": "^7.16.5",
+    "@babel/preset-typescript": "^7.16.5"
+  },
+  "react-native": {
+    "useRosetta": true
+  }
+}
